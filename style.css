@@ -21,7 +21,7 @@ color: white;
     display: flex;
 }
 .top{
-    width: 100%;
+    width:100%;
     height:90px;
     position: fixed;
     z-index:1000;
@@ -29,6 +29,7 @@ color: white;
     opacity:0.6;
     margin-bottom: 10px;
     display:flex;
+    justify-content: flex-end;
 }
 .upgrade{
    
@@ -96,13 +97,14 @@ footer{
 }
 .title{
     justify-content: flex-start;
-    height: 30%;
+    height:90%;
     width: 25%;
 }
 .box2{
     display: flex;
     list-style-type: none;
     justify-content: space-around;
+    margin-top:7px;
 }
 .fa-solid-fa{
     color: white;
@@ -111,11 +113,11 @@ footer{
 }
 .play{
 justify-content: center;
-height: 30%;
+height:90%;
 width:60%;
 }
 .volume{
 justify-content: flex-end;
 width: 25%;
-height: 30%;
+height:90%;
 }
