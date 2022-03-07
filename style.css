@@ -20,17 +20,18 @@ color: white;
     background-color: beige;
     display: flex;
 }
-nav.top{
+.top{
     width: 100%;
     height:90px;
     position: fixed;
     z-index:1000;
     background-color:blue;
+    opacity:0.6;
     margin-bottom: 10px;
     display:flex;
 }
 .upgrade{
-    justify-content:flex-end;
+   
     width:15%;
     height:40%;
     margin-right:3%;
@@ -59,6 +60,7 @@ nav.top{
 }
 .profile{
     padding-top: 50px;
+    align-content: center;
 }
 p{
     font-family:'Montserrat', sans-serif; 
@@ -74,18 +76,46 @@ p{
 aside{
     width: 230px;
     background-color: brown;
+    display:flex;
 }
 main{
     width: calc(100% - 230px);
     background-color: coral;
    
 }
-
-
 footer{
     height: 80px;
     width: 100%;
     background-color: grey;
     position: fixed;
     bottom: 0%;
+}
+.player{
+    height: 100%;
+    display: flex;
+}
+.title{
+    justify-content: flex-start;
+    height: 30%;
+    width: 25%;
+}
+.box2{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.fa-solid-fa{
+    color: white;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+.play{
+justify-content: center;
+height: 30%;
+width:60%;
+}
+.volume{
+justify-content: flex-end;
+width: 25%;
+height: 30%;
 }
