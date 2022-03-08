@@ -209,7 +209,7 @@ ul{
     margin-left:20%;
     margin-top:10px;
     width:55%;
-    height:12%;
+    height:10%;
     border-radius:5px;
     background-color: rgb(141, 140, 140);  
 }
@@ -225,8 +225,7 @@ ul{
     width:15%;
     height:10px;
     font-family:'Montserrat', sans-serif; 
-    align-items: center;
-    
+    align-items: center;  
 }
 .play{
 justify-content: center;
@@ -244,4 +243,12 @@ padding-left:5px;
 width: 25%;
 height:90%;
 }
+.volume1{
+    display: flex;
+    width:60%;
+    height:8%;
+    border-radius:5px;
+    background-color: rgb(141, 140, 140);  
+}
+
 
