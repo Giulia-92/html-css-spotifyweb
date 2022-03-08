@@ -127,11 +127,11 @@ main{
     overflow-y: auto;
 }
 .img{
-  display: flex;
+  width: 100%;
   width: calc(100% / 6);
 }
 .img1{
-    display: flex;
+   
     width:100%
   }
 h2{
@@ -195,10 +195,43 @@ ul{
     margin-right: 5%;
     
 }
+.video{
+    margin-left:10%;
+    display: flex;
+    width:15%;
+    height:10px;
+   padding-top:20px;
+   font-family:'Montserrat', sans-serif; 
+      
+}
+.video1{
+    display: flex;
+    margin-left:20%;
+    margin-top:10px;
+    width:55%;
+    height:12%;
+    border-radius:5px;
+    background-color: rgb(141, 140, 140);  
+}
+.color{
+    width: 20%;
+    background-color: white;
+}
+.video2{
+    margin-top:-8px;
+    padding-bottom:10px;
+    display: flex;
+    margin-left: 80%;
+    width:15%;
+    height:10px;
+    font-family:'Montserrat', sans-serif; 
+    align-items: center;
+    
+}
 .play{
 justify-content: center;
 height:90%;
-width:60%;
+width:50%;
 color: white;
 }
 .volume
