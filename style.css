@@ -142,15 +142,25 @@ img  {
 
  li .overlay:hover{
     position: absolute;
+    display:table;
     width:90%;
     height:90%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    top:0;
+    left:0;
+    right:0;
+    bottom:70px;
     background-color: rgba(0,0,0,0.5);
     z-index: 2;
     cursor: pointer;
+    
+}
+li .fa-regular-fa .overlay{
+    position: relative;
+    transform: translate(-50% ,-50%);   
+}
+.fa-regular-fa:hover{
+    
+
 }
 h2{
     margin-top: 10px;
