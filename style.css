@@ -129,10 +129,32 @@ main{
 img {
     max-width: 90%;
     max-height: 90%;
+    position: relative;
+   
 }
 .img1{
    max-width:auto;
   }
+
+.overlay:hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
 h2{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -187,6 +209,7 @@ ul{
     margin-top:7px;
     height:30%;
 }
+
 .fa-solid-fa{
     color: white;
     margin-top: 5%;
@@ -249,3 +272,14 @@ height:90%;
 }
 
 
+
+
+
+
+@media screen and (min-width:576px){
+ .page container footer{
+     flex-wrap: no-wrap;
+     float: left;
+ }
+    
+}
