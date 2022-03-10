@@ -90,9 +90,6 @@ a:hover{
    margin-right:2%;
     font-family:'Montserrat', sans-serif; 
 }
-#linear{
-    transition:ease;
-}
 #logo{
     height:70%;
     width:70%;
@@ -302,35 +299,54 @@ height:90%;
 
 
 
-@media screen and (max-width:576px){
- .page container footer{
-     flex-wrap: no-wrap;
-     float: left;
-     flex-direction: column;
-     width: 30%;
+@media screen and (max-width:768px){
+ .sezione li{
+     width: calc((100% / 4) - 10px);   
  }
- nav .top{
-     float: left;
-     width: 30%;
- }
+ .top{
+    justify-content: center;
+}
     
 }
-@media screen and (max-width:491px){
-    main{
-        width:30%;
-        float:left;
-        flex-wrap:no-wrap;
-        align-content: stretch;
+@media screen and (max-width:530px){
+    .sezione li{
+        width: calc((100% / 2) - 10px);
+    }
+    .top{
+        justify-content: center;
+    }
+    .list-menù{
+        flex-wrap: wrap;
     }
     aside{
-        width:50%;
+        width:40%;
     }
-    nav .top{
-        width:50%;
-        align-content: stretch;
+    .title{
+        align-items: stretch;
     }
-    footer{
-        width:50%;
-        align-content: stretch;
-    }
+       
 }
+   @media screen and (max-width:490px){
+       .sezione li {
+        width: calc((100% / 1) - 10px);
+        overflow-x: auto;
+       }
+       .box2{
+           flex-wrap: wrap;
+       }
+       .top{
+           justify-content: center;
+       }
+    aside{
+        width:30%;
+    }
+    .player{
+        flex-wrap:wrap;
+       
+    }
+  .list-menù{
+      flex-wrap: wrap;
+  }
+}
+       
+   
