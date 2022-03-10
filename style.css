@@ -90,6 +90,9 @@ a:hover{
    margin-right:2%;
     font-family:'Montserrat', sans-serif; 
 }
+#linear{
+    transition:ease;
+}
 #logo{
     height:70%;
     width:70%;
@@ -299,11 +302,35 @@ height:90%;
 
 
 
-@media screen and (min-width:576px){
+@media screen and (max-width:576px){
  .page container footer{
-     flex-wrap: wrap;
+     flex-wrap: no-wrap;
      float: left;
      flex-direction: column;
+     width: 30%;
+ }
+ nav .top{
+     float: left;
+     width: 30%;
  }
     
+}
+@media screen and (max-width:491px){
+    main{
+        width:30%;
+        float:left;
+        flex-wrap:no-wrap;
+        align-content: stretch;
+    }
+    aside{
+        width:50%;
+    }
+    nav .top{
+        width:50%;
+        align-content: stretch;
+    }
+    footer{
+        width:50%;
+        align-content: stretch;
+    }
 }
